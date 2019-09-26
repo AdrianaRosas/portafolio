@@ -1,0 +1,26 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio Adriana Rosas",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^11.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianaRosas/portafolio.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Adriana Rosas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianaRosas/portafolio/issues"
+  },
+  "homepage": "https://github.com/AdrianaRosas/portafolio#readme"
+}
