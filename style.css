@@ -1,12 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #0A192F;
-    margin: 0 auto;
+    /* background-color: #0A192F; */
+    background-image: url('./img/fnd.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:  fixed;
 }
 
 .header {
     display: flex;
     justify-content: flex-end;
-    /* background-color: #fff; */
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    margin: 0;
+    background-color: #fff;
+    position: fixed;
+
+    
     
 }
   .header li{
@@ -17,7 +32,7 @@ body {
     font-family: 'Advent Pro', sans-serif;
     font-size: 1.5rem;
     text-decoration: none; 
-    color: #5CFBDA; 
+    color: black; 
     
     /* color: rgba(237, 127, 252, 0.938); */
     margin: 0 5rem 0 0;
@@ -33,19 +48,20 @@ body {
 /* ABOUT ME */
 
 .about-me{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; */
     width: 100%;
-    height: 30%;
-    margin: auto;
-    border-radius: 40px;
-    background-color: #fff;
+    height: 765px;
+    /* margin: 5rem auto; */
+    /* border-radius: 40px; */
+    /* background-color: #fff; */
+    /* background-color: #5CFBDA;  */
 }
 
     img{
-    width: 70%;
-    height: 70%;
+    width: 20%;
+    height: 20%;
     border-radius: 100%;
     margin: 1rem;
 }
@@ -60,4 +76,21 @@ body {
     /* color: white; */
     margin: 20px auto;
     font-size: 2rem;
+    /* color:  #5CFBDA; */
+    color: #ffffff;
+    
+}
+
+.proyects{
+    width: 100%;
+    height: 1000px;
+    background-color: goldenrod;
+}
+
+.one{
+    width: 960px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: auto;
+
 }
