@@ -16,6 +16,7 @@ body {
 .header {
     /* background-color: #001F61; */
     box-shadow: 0 16px 22px -17px #2b8fd1;
+    position: fixed;
     animation-name: nav-intro;
     animation-duration: 1.5s;
     /* background: -webkit-linear-gradient(to right, #B05F6D, #462446); 
@@ -24,6 +25,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     height: 3rem;
+    width: 100%;
     margin: 0; 
 }
   .header li{
@@ -62,7 +64,7 @@ body {
 
 .about-me{
  display: flex;
- align-items: flex-start;
+ align-items: center;
  flex-direction: column;  
  background-image: url("./img/cool-background.png");
  background-repeat: no-repeat;   
@@ -76,6 +78,7 @@ body {
       color: white;
 }  
 .rocket{
+    margin: 5rem 0 1.5rem 0;
     width: 8rem;
     height: 8rem;
 }
@@ -186,7 +189,7 @@ h5{
 .habilities{
     width: 100%;
     height: 640px;
-    background-color: olivedrab; 
+    background-color: #eceff1;
 }
 
 
