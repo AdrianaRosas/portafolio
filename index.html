@@ -10,91 +10,53 @@
     <link href="https://fonts.googleapis.com/css?family=Manjari|Mukta+Mahee&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/elements/astronaut.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <title>Adriana Rosas</title>
 </head>
 <body>
     <header class="header">
-        <nav>
-            <ul class="menu">
-                <li><a href="#">01 . Proyectos</a></li>
-                <li><a href="#">02 . Habilidades</a></li>
-                <li><a href="#">03 . About</a></li>
-                <li><a href="#">04 . Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#work">Portada</a></li>
+          <li><a href="#about">Mi Trabajo</a></li>
+          <li><a href="#careers">Sobre Mí</a></li>
+        </ul>
+      </header>
     <main>
-        <section class="about-me">
+        <section class="home">
             <div class="info">
                 <img class="rocket" src="./img/elements/startup.png" alt="rocket">
                 <br>
                  <h1> Adriana Rosas </h1> 
-                 <p class="hi">¡Hola! <br>Soy una aspirante a desarrollador Front-End<br>con un gran interés en la tecnología Blockchain. </p>
+                 <p class="hi">¡Hola! <br>Soy desarrolladora Front-End y entusiasta de <br> la tecnología Blockchain </p>
                  <button class="more-info">+</button>
             </div>
         </section>
-        <section class="habilities">
-                <p class="hab-tittle">Habilidades</p>
-                <div class="habilities-container">
-                    <div class="tools">
-                        <p class="tools-t">Herramientas</p>
-                        <div class="logos">
-                             <img class="tool-logo" src="./img/tools/sass.png" alt="sass">
-                             <img class="tool-logo" src="./img/tools/js.png" alt="javascript">
-                             <img class="tool-logo" src="./img/tools/html.png" alt="html">
-                             <img class="tool-logo" src="./img/tools/css.png" alt="css">
-                             <img class="tool-logo" src="./img/tools/react.png" alt="react">
-                             <img class="tool-logo" src="./img/tools/node.png" alt="nodejs">
-                        </div>
-                        <div class="other-tools">
-                        <p class="other"> Otros</p>
-                         <nav>
-                           <ul class="other-tools-ti">
-                             <li><a href="#">Photoshop</a></li>
-                             <li><a href="#">Ilustrator</a></li>
-                             <li><a href="#">Figma</a></li>
-                           </ul>
-                         </nav>
-                        </div>
-                         <div class="skills">
-                             <p class="skills-ti"> Skills</p>
-                             <nav>
-                                  <ul class="other-tools">
-                                      <li><a href="#">Trabajo colaborativo</a></li>
-                                      <li><a href="#">Resiliencia</a></li>
-                                      <li><a href="#">Autoaprendizaje</a></li>
-                                  </ul>
-                                 </nav>
-                        </div>
-                    </div>
-     
-                </div>
-             </section>
         <section class="proyects">
-            <p class="proyects-tittle">Proyectos</p>
+            <p class="proyects-tittle anim-typewriter">Proyectos</p>
           <section class="proyects-one"> 
             <div class="one">
-                <h5>Burguer Queen</h5>
+                <h5>Pan D' Monium App</h5>
                 <img class="bq" src="./img/bq.jpg" alt="burguer">
                 <p class="card-text">Estandarización de la forma de tomar pedidos facilitar la cobranza e impactar el trabajo en cocina.</p>
                 <div class="links">
-                <a href='link'>link</a>
-                <a href='link'>link</a>
+                    <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank">Proyecto</a>
+                <a href="https://github.com/AdrianaRosas/MEX008-FE-Burger-Queen.git" target="_blank">Repositorio</a>
                 </div>
             </div>
             <br>
             <div class="two">
-                    <h5>Markdown Links</h5>
+                    <h5>Broken Links</h5>
                     <img class="ml" src="./img/ml.jpg" alt="links">
                 <p class="card-text">Creación de una librería que se ejecuta usando Node.js.</p>
                 <div class="links">
-                <a href='link'>link</a>
-                <a href='link'>link</a>
+                    <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank">Repositorio</a>
                 </div>
             </div> 
           <br>  
             <div class="four">
-                    <h5>Data Lovers</h5>
+                    <h5>Rick & Morty Api Universe</h5>
                     <img class="rm" src="./img/rm.JPG" alt="rickandmorty">  
                 <p class="card-text">Construcción de  una interfaz web donde se puede visualizar y manipular los datos de una API Rest</p>
                 <div class="links">
@@ -114,11 +76,75 @@
             </div>
           </section>    
         </section>
+        <section class="about-me-section">
+            <div class="about-container">
+                    <p class="line-1 anim-typewriter">Sobre mí</p>
+            </div>
+            <div class="planets">
+                <div class="picture-ad">
+                    <img class="img-adri" src="./img/ad.jpg" alt="me">
+                    <p class="picture-txt">Tengo 30 años y soy originaria del Estado de México. Me considero una persona curiosa y autodidacta, buscando siempre la mejora continua.</p>
+                </div>
+                <div class="planet-1">
+                      <div class="circle-text-right">
+                        <p class="education-skills">Educación & Skills</p>
+                        <p class="circle-right"> - Soy egresada de la octava generación de Laboratoria, en donde pude optimizar mi autoaprendizaje, desarrollando un interés genuino por la industria de la tecnología. </p>
+                     </div> 
+                        <div class="astronomy">
+                          <img class="planet-right" src="./img/elements/astronomy.png" alt="me">
+                       </div>
+                    </div>
+                    <div class="skills-and-end">
+                          <p class="other-skills">En el transcurso de los 6 meses del bootcamp, <br> tuve la oportunidad de participar en 2 hackatones internos, obteniendo así 2 logros importantes:</p>
+                    </div>
+                    <div class="celo-ibm-container">
+                        <div class="celo">
+                           <img class="icon-ic" src="./img/elements/celo.jpg" alt="celo"> 
+                           <p class="celo-txt">1er. lugar en Desig-a-thon de la startup Celo, cuya plataforma está basada en la tecnología Blockchain. </p>
+                        </div>
+                        <div class="ibm">
+                            <img class="icon-ic" src="./img/elements/ibm.jpg" alt="celo"> 
+                            <p class="celo-txt">2do. lugar en hackaton de IBM Week. Puedes ver la certificiación  <a href='https://www.youracclaim.com/badges/014b1de1-793e-4d95-8655-d4218998566f/linked_in_profile' class="celo-tx"> aquí. </a></p>
+                        </div>
+                    </div>
+
+                    <div class="heart-and-text">
+                      <div class="heart-container">
+                        <img class="heart" src="./img/elements/heart.png" alt="heart-planet">   
+                        <div class="circle-right-heart">
+                             <p class="circle-right-2">- Programación con HTML, Javascript y React.</p>
+                             <p class="circle-right-2">- Diseño con CSS, Bootstrap y Sass</p>
+                             <p class="circle-right-2">- NodeJs <br> - Git & Github</p>
+                        </div>
+                      </div> 
+                        <div class="other-tools-container">
+                                <p class="other-tittle">Otras herramientas</p>
+                                <div class="tools">
+                                    <img class="tool" src="./img/elements/photoshop.png" alt="photoshop">
+                                    <img class="tool" src="./img/elements/illustrator.png" alt="illustrator">
+                                    <img class="tool" src="./img/elements/after-effects.png" alt="me">
+                                    <img class="tool" src="./img/elements/figma.png" alt="figma">
+                                </div>
+                        </div>
+                    <div class="hobbies-container">
+                          <div class="hobbies">
+                              <p class="other-tittle">Hobbies & Intereses</p>
+                                <div class="hobbie-icons">
+                                   <img class="hobbie-icon" src="./img/elements/frying-pan.png" alt="kitchen">
+                                   <img class="hobbie-icon" src="./img/elements/bitcoin.png" alt="bitcoin">
+                                   <img class="hobbie-icon" src="./img/elements/roller-skate.png" alt="roller"> 
+                                </div>
+                          </div>
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+                         
+        </section>
         <section class="about">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia tempora laborum aut dolor magnam voluptatem nobis esse? Modi porro voluptatum odit aliquid odio enim error adipisci. Voluptas fuga ipsam quod.</p>
         </section>
         <section class="contact-me">
-            <p>Contacto</p>
             <div class="social">
                     <div class="social-panel-container">
                             <div class="social-panel">
@@ -141,9 +167,8 @@
                                 </ul>
                             </div>
                         </div>
-                        <button class="floating-btn">
-                            ¡Contáctame!
-                        </button>
+                        <img class="floating-btn" src="./img/elements/astro.png" alt="astro">
+
             </div>
             
 
