@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Manjari|Mukta+Mahee&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/elements/astronaut.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    
     <title>Adriana Rosas</title>
 </head>
 <body>
@@ -18,67 +18,68 @@
         <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
         <ul class="menu">
-          <li><a href="#work">Portada</a></li>
-          <li><a href="#about">Mi Trabajo</a></li>
-          <li><a href="#careers">Sobre Mí</a></li>
+          <li><a href="#home">Portada</a></li>
+          <li><a href="#proyects">Mi Trabajo</a></li>
+          <li><a href="#about-me-section">Sobre Mí</a></li>
         </ul>
       </header>
     <main>
-        <section class="home">
+        <section class="home" id="home">
             <div class="info">
                 <img class="rocket" src="./img/elements/startup.png" alt="rocket">
                 <br>
                  <h1> Adriana Rosas </h1> 
                  <p class="hi">¡Hola! <br>Soy desarrolladora Front-End y entusiasta de <br> la tecnología Blockchain </p>
-                 <button class="more-info">+</button>
+                 <a href="Adriana Rosas Figueroa CV.pdf" target="_blank">CV</a>
+            
             </div>
         </section>
-        <section class="proyects">
-            <p class="proyects-tittle anim-typewriter">Proyectos</p>
-          <section class="proyects-one"> 
-            <div class="one">
-                <h5>Pan D' Monium App</h5>
-                <img class="bq" src="./img/bq.jpg" alt="burguer">
-                <p class="card-text">Estandarización de la forma de tomar pedidos facilitar la cobranza e impactar el trabajo en cocina.</p>
-                <div class="links">
-                    <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank">Proyecto</a>
-                <a href="https://github.com/AdrianaRosas/MEX008-FE-Burger-Queen.git" target="_blank">Repositorio</a>
+        <section class="proyects" id="proyects">
+            <p class="proyects-tittle">Proyectos</p>
+            <div class="all-proyects">
+              <div class="one-container">
+                   <div class="view view-one">   
+                       <img src="./img/bq.jpg"/>  
+                   <div class="mask">  
+                       <h2>Pan D' Monium App</h2>  
+                       <p>Estandarización de la forma de tomar pedidos facilitar la cobranza e impactar el trabajo en cocina. <br>Realizado con React y Firebase</p>  
+                       <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank" class="info">Ver</a>      
+                   </div>  
+                   </div>
+                   <div class="view view-one">   
+                    <img src="./img/ml.jpg"/>  
+                <div class="mask">  
+                    <h2>Broken Links</h2>  
+                    <p>Creación de una librería que se ejecuta usando Node.js  
+                    <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank" target="_blank" class="info">Ver</a>      
+                </div>  
+                </div>    
+              </div>
+              <div class="two-container">
+                <div class="view view-one">   
+                    <img src="./img/rm.JPG"/>  
+                <div class="mask">  
+                    <h2>Rick & Morty Api Universe</h2>  
+                    <p>Construcción de  una interfaz web donde se puede visualizar y manipular los datos de una API Rest. <br> Realizado con Javascript y CSS</p>  
+                    <a href="https://adrianarosas.github.io/MEX-Data-Lovers-008/src/" target="_blank" class="info">Ver</a>      
+                </div>  
                 </div>
-            </div>
-            <br>
-            <div class="two">
-                    <h5>Broken Links</h5>
-                    <img class="ml" src="./img/ml.jpg" alt="links">
-                <p class="card-text">Creación de una librería que se ejecuta usando Node.js.</p>
-                <div class="links">
-                    <a href="https://oyukicv.github.io/MEX008-FE-Burger-Queen/" target="_blank">Repositorio</a>
-                </div>
-            </div> 
-          <br>  
-            <div class="four">
-                    <h5>Rick & Morty Api Universe</h5>
-                    <img class="rm" src="./img/rm.JPG" alt="rickandmorty">  
-                <p class="card-text">Construcción de  una interfaz web donde se puede visualizar y manipular los datos de una API Rest</p>
-                <div class="links">
-                <a href='link'>link</a>
-                <a href='link'>link</a> 
-                </div>
-            </div>
-            <div class="five">
-                    <h5>FUR App</h5>
-                    <img class="fa" src="./img/fur.JPG" alt="fur">
-                <p class="card-text">Red social enfocada en las mascotas y sus cuidados</p>
-                <div class="links">
-                <a href='link'>link</a>
-                <a href='link'>link</a>
-                </div>
-            </div>
-            </div>
+                <div class="view view-one">   
+                 <img src="./img/fur.JPG"/>  
+             <div class="mask">  
+                 <h2>FUR App</h2>  
+                 <p>Red social enfocada en las mascotas y sus cuidados. <br> Realizado con Firebase  
+                 <a href="https://app-fur.firebaseapp.com/#/" target="_blank" target="_blank" class="info">Ver</a>      
+             </div>  
+             </div>    
+           </div> 
+        </div>
           </section>    
+        </section>   
         </section>
-        <section class="about-me-section">
+        <section class="about-me-section" id="about-me-section">
             <div class="about-container">
-                    <p class="line-1 anim-typewriter">Sobre mí</p>
+                    <p class="line-1">Sobre mí</p>
             </div>
             <div class="planets">
                 <div class="picture-ad">
@@ -90,7 +91,7 @@
                         <p class="education-skills">Educación & Skills</p>
                         <p class="circle-right"> - Soy egresada de la octava generación de Laboratoria, en donde pude optimizar mi autoaprendizaje, desarrollando un interés genuino por la industria de la tecnología. </p>
                      </div> 
-                        <div class="astronomy">
+                        <div class="universe">
                           <img class="planet-right" src="./img/elements/astronomy.png" alt="me">
                        </div>
                     </div>
@@ -104,7 +105,7 @@
                         </div>
                         <div class="ibm">
                             <img class="icon-ic" src="./img/elements/ibm.jpg" alt="celo"> 
-                            <p class="celo-txt">2do. lugar en hackaton de IBM Week. Puedes ver la certificiación  <a href='https://www.youracclaim.com/badges/014b1de1-793e-4d95-8655-d4218998566f/linked_in_profile' class="celo-tx"> aquí. </a></p>
+                            <p class="celo-txt">2do. lugar en IBM Week. Puedes ver la certificiación  <a href='https://www.youracclaim.com/badges/014b1de1-793e-4d95-8655-d4218998566f/linked_in_profile' target="_blank" class="celo-tx"> aquí. </a></p>
                         </div>
                     </div>
 
@@ -112,13 +113,13 @@
                       <div class="heart-container">
                         <img class="heart" src="./img/elements/heart.png" alt="heart-planet">   
                         <div class="circle-right-heart">
-                             <p class="circle-right-2">- Programación con HTML, Javascript y React.</p>
-                             <p class="circle-right-2">- Diseño con CSS, Bootstrap y Sass</p>
+                             <p class="circle-right-2">- Programación con HTML, Javascript y React</p>
+                             <p class="circle-right-2">- Diseño con CSS y Bootstrap</p>
                              <p class="circle-right-2">- NodeJs <br> - Git & Github</p>
                         </div>
                       </div> 
                         <div class="other-tools-container">
-                                <p class="other-tittle">Otras herramientas</p>
+                                <p class="other-tittle">Otras herramientas :</p>
                                 <div class="tools">
                                     <img class="tool" src="./img/elements/photoshop.png" alt="photoshop">
                                     <img class="tool" src="./img/elements/illustrator.png" alt="illustrator">
@@ -128,19 +129,19 @@
                         </div>
                     <div class="hobbies-container">
                           <div class="hobbies">
-                              <p class="other-tittle">Hobbies & Intereses</p>
+                              <p class="other-tittle">Hobbies & Intereses :</p>
                                 <div class="hobbie-icons">
                                    <img class="hobbie-icon" src="./img/elements/frying-pan.png" alt="kitchen">
                                    <img class="hobbie-icon" src="./img/elements/bitcoin.png" alt="bitcoin">
+                                   <img class="hobbie-icon" src="./img/elements/sewing-machine.png" alt="machine">
                                    <img class="hobbie-icon" src="./img/elements/roller-skate.png" alt="roller"> 
                                 </div>
                           </div>
-
                     </div>
                     </div>
+                                
                 </div>
-            </div>
-                         
+            
         </section>
         <section class="about">
         </section>
@@ -168,12 +169,15 @@
                             </div>
                         </div>
                         <img class="floating-btn" src="./img/elements/astro.png" alt="astro">
-
+                       
             </div>
-            
-
         </section>
+        <footer class="fin">
+            <article>© 2019 Coded with <i class="fas fa-heart"></i> by Adriana Rosas</article>
+
+        </footer>
     </main>
+    
     
 <script src="index.js"></script>
 </body>
