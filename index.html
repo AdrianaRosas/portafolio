@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manjari|Mukta+Mahee&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manjari|Mukta+Mahee&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./img/elements/astronaut.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
     
     <title>Adriana Rosas</title>
 </head>
@@ -26,12 +28,15 @@
     <main>
         <section class="home" id="home">
             <div class="info">
+                <div class="rock">
                 <img class="rocket" src="./img/elements/startup.png" alt="rocket">
-                <br>
-                 <h1> Adriana Rosas </h1> 
-                 <p class="hi">¡Hola! <br>Soy desarrolladora Front-End y entusiasta de <br> la tecnología Blockchain </p>
+            </div>
+            <br>
+            <div class="inf-rock">
+                 <h1>Adriana Rosas </h1> 
+                 <p class="hi">Desarrolladora Front-End <br>y entusiasta de  la tecnología<br>Blockchain.</p>
                  <a href="Adriana Rosas Figueroa CV.pdf" target="_blank">CV</a>
-            
+            </div>
             </div>
         </section>
         <section class="proyects" id="proyects">
@@ -161,8 +166,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.facebook.com/genuino.humano" target="_blank">
-                                            <i class="far fa-envelope-open"></i>
+                                            <i id="btn btn-primary" class="far fa-envelope-open" data-toggle="modal" data-target=".bd-example-modal-sm"></i>
+                                        <!-- <a href="https://www.facebook.com/genuino.humano" target="_blank">
+                                            <i class="far fa-envelope-open"></i> -->
                                         </a>
                                     </li>
                                 </ul>
@@ -172,12 +178,24 @@
                        
             </div>
         </section>
+        <!-- Small modal -->
+<!-- <i class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-sm">Small modal</i> -->
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <p>adrianarosas.fg@gmail.com</p>
+    </div>
+  </div>
+</div>
         <footer class="fin">
             <article>© 2019 Coded with <i class="fas fa-heart"></i> by Adriana Rosas</article>
 
         </footer>
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
     
 <script src="index.js"></script>
 </body>

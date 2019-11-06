@@ -183,7 +183,7 @@
       margin: 0.4rem 1rem 0 1rem;
       font-size: 0.5rem;   
 }
-.info a {
+.inf-rock a {
     width: 5rem;
     height: 2rem;
     font-size: 1rem;
@@ -646,6 +646,21 @@ article{
 	right: 20px;
   z-index: 999;
 }
+.modal-content {
+  margin: auto;
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content p{
+  font-size: 1.3rem;
+  font-family: 'Manjari', sans-serif;
+  margin: 0 auto;
+  font-weight: bold;
+  color: palevioletred;
+}
 
 
 
@@ -694,20 +709,52 @@ article{
     /* HOME */
     h1{
       font-weight: bold;
-      font-size: 3rem;
+      font-size: 6rem;
       color: white;
-      
+      margin: 0 0 1rem 0;
    }  
+   .info {
+    width: 74rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rock{
+  width: 25rem;
+  height: 25rem;
+}
+.inf-rock{
+  width: 43rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  text-align: left;
+  text-underline-position: auto;
+}
+.inf-rock a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+}
+.hi{
+  font-size: 1rem;
+}
    .rocket{
-    margin: 5rem 0 1.5rem 0;
-    width: 9rem;
-    height: 9rem;
+    /* margin: 5rem 0 1.5rem 0; */
+    width: 15rem;
+    height: 18rem;
     }
 
 
 .hi{
     font-family: 'Manjari', sans-serif;
-    font-size: 1.3rem;
+    font-size: 2.4rem;
     color: white;
     margin: 0.5rem;    
 }
