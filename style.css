@@ -166,7 +166,7 @@
 }
 .hi{
     font-family: 'Manjari', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     color: white;
     margin: 0.5rem; 
     
@@ -243,7 +243,7 @@
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
-  background: #fff url(../images/bgimg.jpg) no-repeat center center
+  /* background: #fff url(./img/bgimg.jpg) no-repeat center center */
 }
 
 .view .mask, .view .content {
@@ -288,7 +288,6 @@
   height: 2rem;
   display: inline-flex;
   text-decoration: none;
-  /* padding: 7px 14px; */
   background: #000;
   border: 1.5px solid #ffffff;
   color: #fff;
@@ -555,8 +554,8 @@ transition-delay: 0.3s;
   height: 5rem;
 }
 .hobbie-icon{
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3rem;
+  height: 3rem;
   margin: 0.5rem;
 }
 
@@ -578,9 +577,6 @@ article{
   height: 1rem;
   color: white;
 }
-
-
-
 
 /* CONTACT */
 
@@ -638,8 +634,8 @@ article{
 
 .floating-btn {
 	cursor: pointer;
-  width: 3rem;
-  height: 3rem;
+  width: 3.3rem;
+  height: 3.3rem;
 	position: fixed;
 	bottom: 20px;
 	right: 20px;
@@ -745,7 +741,6 @@ article{
   font-size: 1rem;
 }
    .rocket{
-    /* margin: 5rem 0 1.5rem 0; */
     width: 15rem;
     height: 18rem;
     }
