@@ -421,13 +421,12 @@ transition-delay: 0.3s;
 }
 
 .picture-adriana{
-  width: 90%;
+  width: 95%;
   height: 8rem;
   margin: 0 0 0 1rem;
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .img-adri{
@@ -445,7 +444,8 @@ transition-delay: 0.3s;
 } 
 
 .picture-txt{
-  margin: 0 1rem 0 0;
+  margin: 0 0.5rem 0 0;
+  position: auto;
 }
 
 .planet-1{
@@ -504,9 +504,9 @@ transition-delay: 0.3s;
   color: palevioletred;
 }
 .icon-ic{
-  width: 5rem;
+  width: 4rem;
   height: 3rem;
-  margin:10px 1rem 0 2rem;
+  margin:10px 1rem 0 1rem;
 }
 .heart-container{
   display: flex;
@@ -517,7 +517,7 @@ transition-delay: 0.3s;
 .heart{
   width: 8rem;
   height: 8rem;
-  margin: 0 2rem 0 1rem;
+  margin: 0 1rem 0 1rem;
   animation : corazon 1.5s ease infinite alternate-reverse ;
 }
 @keyframes corazon {
@@ -530,7 +530,7 @@ transition-delay: 0.3s;
   }
 }
 .circle-right-heart{
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 0.5rem 0 0;
 }
 .other-tools-container{
   display: flex;
@@ -829,7 +829,7 @@ article{
     }
     
     .picture-adriana{
-      width: 70%;
+      width: 90%;
       height: 10rem;
       margin: 0 0 0 5rem;
   
