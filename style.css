@@ -501,7 +501,7 @@ transition-delay: 0.3s;
   
 }
 .celo-tx{
-  color: palevioletred;
+  color: rgb(255, 187, 209);
 }
 .icon-ic{
   width: 4rem;
