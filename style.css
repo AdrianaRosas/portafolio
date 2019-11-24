@@ -422,19 +422,17 @@ transition-delay: 0.3s;
 
 .picture-adriana{
   width: 95%;
-  height: 8rem;
-  margin: 0 0 0 1rem;
+  height: 10rem;
+  margin: 0 1rem 0 1rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
 .img-adri{
-  width: 6rem;
-  height: 6rem;
-  border-radius: 100%;
-  margin: 0 1rem 0 0;
-  
+  width: 3.5rem;
+  height: 5rem;
+  margin: 1rem  0 1rem 0;  
 } 
 .picture-txt, .circle-right, .circle-right-2, .other-skills, .celo-txt, .celo-tx {
   font-size: 13px;
@@ -444,7 +442,6 @@ transition-delay: 0.3s;
 } 
 
 .picture-txt{
-  margin: 0 0.5rem 0 0;
   position: auto;
 }
 
@@ -483,20 +480,24 @@ transition-delay: 0.3s;
 .skills-and-end{
   display: flex;
   justify-content: center;
-  width: 99%;
+  width: 95%;
   height: 4rem;
   text-align: center;
 }
 .celo-ibm-container{
   width: 100%;
   height: 11rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .celo, .ibm{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 95%;
   height: 5rem;
   
 }
@@ -832,14 +833,15 @@ article{
       width: 90%;
       height: 10rem;
       margin: 0 0 0 5rem;
+      flex-direction: row;
   
       
     }
     
     .img-adri{
-      width: 9.5rem;
-      height: 9.5rem;
-      margin: 0 3rem 0 0;
+      width: 7rem;
+      height: 10rem;
+      margin: 0 1rem 0 0;
      
       
     } 
@@ -898,7 +900,7 @@ article{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 18rem;
+      height: 20rem;
     }
     .heart{
       width: 20rem;
@@ -926,7 +928,7 @@ article{
       justify-content: center;
       text-align: center;
       width: 100%;
-      height: 10rem;
+      height: 11rem;
     }
     .hobbie-icons{
       height: 6rem;
