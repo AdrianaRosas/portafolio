@@ -28,7 +28,7 @@
     display: block;
     padding: 20px;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: bold;
     color: #fff;
   }
@@ -215,38 +215,32 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 80rem;
+  height: 65rem;
   background-color: #93516C;
   background-image: url('./img/grey.jpg');
   background-size: cover;
-  
 }
-
-
 .proyects-tittle, .hab-tittle, .other-tools, .line-1 , .education-skills, .other-tittle{
   font-size: 2rem;
   font-weight: bold;
   margin: 1rem 0 1rem 0;
   color: #071F61;
   width: 100%;
-  
 }
 
 .one-container, .two-container{
-
   width: 100%;
-  height: 37rem;
+  height: 26rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .view {
   display: flex;
   justify-content: center;
-  width: 300px;
-  height: 15rem;
+  width: 200px;
+  height: 10rem;
   margin: 2rem 0 0 0;
   float: left;
   border: 5px solid #fff;
@@ -259,22 +253,23 @@
 
 .view .mask, .view .content {
   width: 100%;
-  height: 16rem;
+  height: 14rem;
   position: absolute;
   overflow: hidden;
-  top: 0;
+  top: -45px;
   left: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+}
+.mask p{
+  margin: 0 0 0.5rem 0;
 }
 .view img {
   display: block;
   position: relative;
   width:100%;
-  height: 18rem;
 }
 
 .view h2 {
@@ -285,7 +280,6 @@
   font-size: 10px;
   padding: 5px;
   background: rgba(0, 0, 0, 0.8);
-  margin: 20px 0 0 0
 }
 .view p {
   font-family: Georgia, serif;
@@ -299,15 +293,15 @@
 
 
 .view .info-proyect {
-  width: 5rem;
-  height: 1.5rem;
+  width: 4rem;
+  height: 1rem;
   display: inline-flex;
   text-decoration: none;
   background: #000;
   border: 1.5px solid #ffffff;
   color: #fff;
   font-family: 'Manjari', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   text-transform: uppercase;
   align-items: center;
   justify-content: center;
@@ -321,14 +315,14 @@
 transition: all 0.4s ease-in-out 0.5s; 
 }
 .view-one .mask{ 
-background-color: rgba(16, 70, 63, 0.836);
+background-color: rgba(10, 51, 46, 0.836);
 opacity:0;
 transition: all 0.3s ease-in 0.4s;
 text-align: center;
 }
 .view-one h2{
   font-family: 'Advent Pro', sans-serif;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   opacity:0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.8);
   background: transparent;
@@ -339,7 +333,7 @@ text-align: center;
 .view-one p { 
   font-family: 'Manjari', sans-serif;
   font-style: normal;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   opacity:0;
   transform: scale(10);
 transition: all 0.3s ease-in-out 0.2s;
@@ -416,7 +410,7 @@ transition-delay: 0.3s;
   to{width: 100%;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgb(255, 255, 255);}
+  from{border-right-color: rgb(212, 14, 146);}
   to{border-right-color: transparent;}
 }
 
@@ -773,43 +767,56 @@ article{
     /* PROYECTS */
     
     .proyects{
-      height: 65rem;
+      height: 50rem;
+    }
+
+    .proyects-tittle{
+      margin-top: 3rem;
     }
 
     .all-proyects{
-      height: 55rem;
+      height: 30rem;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
+      margin: 3rem 0 0 0;
     }
 
     .one-container, .two-container{
 
-      width: 45%;
+      width: 50%;
       height: 55rem;
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       justify-content: center;
     
     }
     .view, .view-one img, .view mask{
 
-      width: 450px;
-      height: 25rem;
+      width: 500px;
+      height: 20rem;
       display: flex;
+      margin: 0 2rem 0 2rem;
      
     }
     .view .mask, .view .content {
       width: 100%;
       height: 25rem;
+      top: -50px;
     }
     .view-one h2{
       font-size: 1.6rem;
+      margin: 0.5rem 0 0.5rem 0;
     }
     .view-one p { 
       font-size: 1.3rem;
 
+    }
+
+    .view .info-proyect{
+      height: 1.5rem;
+      font-size: 0.8rem;
     }
     
     
